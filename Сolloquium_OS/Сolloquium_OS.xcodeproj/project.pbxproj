@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09130A3C29F98AAC0052BBDA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A3B29F98AAC0052BBDA /* main.cpp */; };
+		09130A4429F98D0D0052BBDA /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A4229F98D0D0052BBDA /* Enemy.cpp */; };
+		09130A4729F98D550052BBDA /* Goblin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A4529F98D550052BBDA /* Goblin.cpp */; };
+		09130A4A29F98DEC0052BBDA /* Orc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A4829F98DEC0052BBDA /* Orc.cpp */; };
+		09130A4D29F98ED20052BBDA /* Dragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A4B29F98ED20052BBDA /* Dragon.cpp */; };
+		09130A5029F995D50052BBDA /* EnemyFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A4E29F995D50052BBDA /* EnemyFactory.cpp */; };
+		09130A5329F9A5C50052BBDA /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A5129F9A5C40052BBDA /* Player.cpp */; };
+		09130A5629F9A5FD0052BBDA /* SwordAttackStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A5429F9A5FD0052BBDA /* SwordAttackStrategy.cpp */; };
+		09130A5929F9A61E0052BBDA /* AttackStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A5729F9A61E0052BBDA /* AttackStrategy.cpp */; };
+		09130A5C29F9A6510052BBDA /* Sword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A5A29F9A6510052BBDA /* Sword.cpp */; };
+		09130A5F29F9A6760052BBDA /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A5D29F9A6760052BBDA /* Weapon.cpp */; };
+		09130A6229F9AAB90052BBDA /* Bow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A6029F9AAB90052BBDA /* Bow.cpp */; };
+		09130A6529F9AADB0052BBDA /* BowAttackStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09130A6329F9AADB0052BBDA /* BowAttackStrategy.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09130A3629F98AAC0052BBDA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09130A3829F98AAC0052BBDA /* Сolloquium_OS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Сolloquium_OS"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09130A3B29F98AAC0052BBDA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		09130A4229F98D0D0052BBDA /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		09130A4329F98D0D0052BBDA /* Enemy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enemy.hpp; sourceTree = "<group>"; };
+		09130A4529F98D550052BBDA /* Goblin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Goblin.cpp; sourceTree = "<group>"; };
+		09130A4629F98D550052BBDA /* Goblin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Goblin.hpp; sourceTree = "<group>"; };
+		09130A4829F98DEC0052BBDA /* Orc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Orc.cpp; sourceTree = "<group>"; };
+		09130A4929F98DEC0052BBDA /* Orc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Orc.hpp; sourceTree = "<group>"; };
+		09130A4B29F98ED20052BBDA /* Dragon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dragon.cpp; sourceTree = "<group>"; };
+		09130A4C29F98ED20052BBDA /* Dragon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dragon.hpp; sourceTree = "<group>"; };
+		09130A4E29F995D50052BBDA /* EnemyFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyFactory.cpp; sourceTree = "<group>"; };
+		09130A4F29F995D50052BBDA /* EnemyFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EnemyFactory.hpp; sourceTree = "<group>"; };
+		09130A5129F9A5C40052BBDA /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		09130A5229F9A5C50052BBDA /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		09130A5429F9A5FD0052BBDA /* SwordAttackStrategy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwordAttackStrategy.cpp; sourceTree = "<group>"; };
+		09130A5529F9A5FD0052BBDA /* SwordAttackStrategy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SwordAttackStrategy.hpp; sourceTree = "<group>"; };
+		09130A5729F9A61E0052BBDA /* AttackStrategy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AttackStrategy.cpp; sourceTree = "<group>"; };
+		09130A5829F9A61E0052BBDA /* AttackStrategy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AttackStrategy.hpp; sourceTree = "<group>"; };
+		09130A5A29F9A6510052BBDA /* Sword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sword.cpp; sourceTree = "<group>"; };
+		09130A5B29F9A6510052BBDA /* Sword.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sword.hpp; sourceTree = "<group>"; };
+		09130A5D29F9A6760052BBDA /* Weapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		09130A5E29F9A6760052BBDA /* Weapon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Weapon.hpp; sourceTree = "<group>"; };
+		09130A6029F9AAB90052BBDA /* Bow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bow.cpp; sourceTree = "<group>"; };
+		09130A6129F9AAB90052BBDA /* Bow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bow.hpp; sourceTree = "<group>"; };
+		09130A6329F9AADB0052BBDA /* BowAttackStrategy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BowAttackStrategy.cpp; sourceTree = "<group>"; };
+		09130A6429F9AADB0052BBDA /* BowAttackStrategy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BowAttackStrategy.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09130A3529F98AAC0052BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09130A2F29F98AAC0052BBDA = {
+			isa = PBXGroup;
+			children = (
+				09130A3B29F98AAC0052BBDA /* main.cpp */,
+				09130A6029F9AAB90052BBDA /* Bow.cpp */,
+				09130A6129F9AAB90052BBDA /* Bow.hpp */,
+				09130A6329F9AADB0052BBDA /* BowAttackStrategy.cpp */,
+				09130A6429F9AADB0052BBDA /* BowAttackStrategy.hpp */,
+				09130A5129F9A5C40052BBDA /* Player.cpp */,
+				09130A5429F9A5FD0052BBDA /* SwordAttackStrategy.cpp */,
+				09130A5529F9A5FD0052BBDA /* SwordAttackStrategy.hpp */,
+				09130A5729F9A61E0052BBDA /* AttackStrategy.cpp */,
+				09130A5829F9A61E0052BBDA /* AttackStrategy.hpp */,
+				09130A5A29F9A6510052BBDA /* Sword.cpp */,
+				09130A5B29F9A6510052BBDA /* Sword.hpp */,
+				09130A5D29F9A6760052BBDA /* Weapon.cpp */,
+				09130A5E29F9A6760052BBDA /* Weapon.hpp */,
+				09130A5229F9A5C50052BBDA /* Player.hpp */,
+				09130A4E29F995D50052BBDA /* EnemyFactory.cpp */,
+				09130A4229F98D0D0052BBDA /* Enemy.cpp */,
+				09130A4529F98D550052BBDA /* Goblin.cpp */,
+				09130A4829F98DEC0052BBDA /* Orc.cpp */,
+				09130A4B29F98ED20052BBDA /* Dragon.cpp */,
+				09130A4F29F995D50052BBDA /* EnemyFactory.hpp */,
+				09130A4329F98D0D0052BBDA /* Enemy.hpp */,
+				09130A4629F98D550052BBDA /* Goblin.hpp */,
+				09130A4929F98DEC0052BBDA /* Orc.hpp */,
+				09130A4C29F98ED20052BBDA /* Dragon.hpp */,
+				09130A3A29F98AAC0052BBDA /* Сolloquium_OS */,
+				09130A3929F98AAC0052BBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09130A3929F98AAC0052BBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09130A3829F98AAC0052BBDA /* Сolloquium_OS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09130A3A29F98AAC0052BBDA /* Сolloquium_OS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Сolloquium_OS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09130A3729F98AAC0052BBDA /* Сolloquium_OS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09130A3F29F98AAC0052BBDA /* Build configuration list for PBXNativeTarget "Сolloquium_OS" */;
+			buildPhases = (
+				09130A3429F98AAC0052BBDA /* Sources */,
+				09130A3529F98AAC0052BBDA /* Frameworks */,
+				09130A3629F98AAC0052BBDA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Сolloquium_OS";
+			productName = "Сolloquium_OS";
+			productReference = 09130A3829F98AAC0052BBDA /* Сolloquium_OS */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09130A3029F98AAC0052BBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					09130A3729F98AAC0052BBDA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 09130A3329F98AAC0052BBDA /* Build configuration list for PBXProject "Сolloquium_OS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09130A2F29F98AAC0052BBDA;
+			productRefGroup = 09130A3929F98AAC0052BBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09130A3729F98AAC0052BBDA /* Сolloquium_OS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09130A3429F98AAC0052BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09130A6229F9AAB90052BBDA /* Bow.cpp in Sources */,
+				09130A6529F9AADB0052BBDA /* BowAttackStrategy.cpp in Sources */,
+				09130A4A29F98DEC0052BBDA /* Orc.cpp in Sources */,
+				09130A5329F9A5C50052BBDA /* Player.cpp in Sources */,
+				09130A5629F9A5FD0052BBDA /* SwordAttackStrategy.cpp in Sources */,
+				09130A4729F98D550052BBDA /* Goblin.cpp in Sources */,
+				09130A4429F98D0D0052BBDA /* Enemy.cpp in Sources */,
+				09130A5929F9A61E0052BBDA /* AttackStrategy.cpp in Sources */,
+				09130A5029F995D50052BBDA /* EnemyFactory.cpp in Sources */,
+				09130A5F29F9A6760052BBDA /* Weapon.cpp in Sources */,
+				09130A3C29F98AAC0052BBDA /* main.cpp in Sources */,
+				09130A4D29F98ED20052BBDA /* Dragon.cpp in Sources */,
+				09130A5C29F9A6510052BBDA /* Sword.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09130A3D29F98AAC0052BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09130A3E29F98AAC0052BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09130A4029F98AAC0052BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87647QMXQK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09130A4129F98AAC0052BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87647QMXQK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09130A3329F98AAC0052BBDA /* Build configuration list for PBXProject "Сolloquium_OS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09130A3D29F98AAC0052BBDA /* Debug */,
+				09130A3E29F98AAC0052BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09130A3F29F98AAC0052BBDA /* Build configuration list for PBXNativeTarget "Сolloquium_OS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09130A4029F98AAC0052BBDA /* Debug */,
+				09130A4129F98AAC0052BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09130A3029F98AAC0052BBDA /* Project object */;
+}
